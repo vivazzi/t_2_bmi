@@ -1,8 +1,8 @@
-from bmi_class import BMI
+from .bmi import bmi_str
 from utils import _input
 
 
-if __name__ == '__main__':
+def run():
     mass = _input('mass (kg) = ')
     height = _input('height (cm) = ')
-    BMI(mass, height).print_result()
+    print(bmi_str(mass, height))

@@ -1,3 +1,6 @@
+import importlib
+
+
 def _input(mes: str):
     valid = False
 
@@ -12,3 +15,13 @@ def _input(mes: str):
             return v
         except ValueError:
             print('Please only input digits')
+
+
+def import_string(path: str):
+    """
+    :param path: Path to function or class
+    :return: function or class
+    """
+    module_name, func_name = path.rsplit('.', 1)
+    module = importlib.import_module(module_name)
+    return getattr(module, func_name)
