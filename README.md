@@ -57,7 +57,7 @@ demonstrations:
 
 ### 1. Task formalization
 
-Initially, the problem was given in a less formalization form (look [docs/raw_task.txt](docs/raw_task.txt), task was given in Russian only, the errors in the text are preserved). 
+Initially, the task was given in a less formalization form (look [docs/raw_task.txt](docs/raw_task.txt), task was given in Russian only, the errors in the text are preserved). 
 The result of task formalization is in [docs/task.md](docs/task.md) (in English) and [docs/task_ru.md](docs/task_ru.md) (in Russian).
 
 ### 2. Different aspects of programming
@@ -109,4 +109,4 @@ Docker has become the standard in today's programming world which simplifies tes
 
 ### 4. Adding tests
 
-When solving the problem, it was used Test-Driven Development (TDD) methodology.
+When solving the task, it was used Test-Driven Development (TDD) methodology.
